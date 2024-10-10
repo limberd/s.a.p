@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes 150x150</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galería de Imágenes (250x250)</h1>
+</header>
+
+<div class="gallery">
+    <a href="datoscamioneta.html"><img src="MAG.avif"></a>
+    <a href="datos de vagoneta.html"><img src="aaaaaaaa.jpg"></a>
+    <a href="datosdecamion.html"><img src="camion.jpg"></a>
+    <a href="datos de rav4.html"><img src="rab4.jpg"></a>
+    <a href="datosdedeluxe.html"><img src="deluxe.jpeg"></a>
+    <a href="datos de corolla.html"><img src="corolla.jpg"></a>
+
+    
+</div>
+
+</body>
+</html>
